@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2UT8ThnK6vrE/3oSOnnAHNO4cWWJSbGzNVA+8frAWUd9iqGN/9lOsAtHSbyd0Uym2jKxfgigrooVUuy24QVN0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\consumeRest\\consumeRest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
