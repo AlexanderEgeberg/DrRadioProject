@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj": {}
+    "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj": {
+    "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj",
         "projectName": "modelLib",
-        "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj",
+        "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",

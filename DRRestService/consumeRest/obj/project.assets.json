@@ -73,11 +73,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\consumeRest\\consumeRest.csproj",
+      "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\consumeRest\\consumeRest.csproj",
       "projectName": "consumeRest",
-      "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\consumeRest\\consumeRest.csproj",
+      "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\consumeRest\\consumeRest.csproj",
       "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\consumeRest\\obj\\",
+      "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\consumeRest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj": {
-              "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj"
+            "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj": {
+              "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj"
             }
           }
         }

@@ -17,23 +17,48 @@
 
 <body>
   <h1>Hello</h1>
-  <div id="app">
-    <input>
-    <button v-on:click="getAll()" class="btn btn-primary">Get call</button>
+  <div id="app" style="margin-left: 10;">
+
     <div>
-      <ol v-if="recordData">
-        <li v-for="recordData in recordData">
-          {{recordData.title}}
-        </li>
-      </ol>
+      <input name="getByIdInput" placeholder="enter ID" v-model.number="recordGetId" type="number">
+      <button id="getbyIdBtn" class="btn btn-primary" v-on:click="getById(recordGetId)">Get by ID</button>
+      <div id="recordDataResult" v-show="recordData != null && recordData != ''">{{recordData}}</div>
     </div>
 
-    <input v-model="recordID"/>
-    <button v-on:click="HTTPDelete(recordID)">Delete</button>
-    <p>{{recordID}}</p>
+    <div>
+      <button v-on:click="getAll()" class="btn btn-primary" style="margin-left: 200px; margin-top: 10px;">Get All</button>
+      <ol v-if="allRecordData">
+        <ul v-for="Data in allRecordData">
+          ID: {{Data.id}} Title: {{Data.title}} Artist: {{Data.artist}} Duration: {{Data.duration}} Year of publication: {{Data.yearOfPublication}}
+        </ul>
+      </ol>
+    </div>
+    
+    <div>
+      <input v-model="recordDeleteId"/>
+      <button v-on:click="HTTPDelete(recordDeleteId)">Delete</button>
+      <p>{{recordDeleteId}}</p>
+    </div>
+
+    <div>
+      <form class="form-inline" id="postInputForm" v-on:submit.prevent="HTTPPost()"> 
+        <div class="form-group">
+          <input type="text" class="form-control" v-model="postFormData.title" placeholder="Title ...">
+          <input type="text" class="form-control" v-model="postFormData.artist" placeholder="Artist ...">
+          <input class="form-control" v-model.number="postFormData.duration" placeholder="Duration ...">
+          <input class="form-control" v-model.number="postFormData.yearOfPublication" placeholder="Publication year...">
+        </div>
+        <button class="btn btn-primary">Post</button>
+      </form>
+    </div>
+
+
+  
   </div>
 
   <script src="bundle.js"></script>
 </body>
+
+
 
 </html>

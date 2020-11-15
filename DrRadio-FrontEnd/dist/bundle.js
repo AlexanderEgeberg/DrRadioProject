@@ -2147,12 +2147,14 @@ new Vue({
     // which is included at the bottom of the html file.
     el: "#app",
     data: {
-        recordID: undefined,
-        recordDatas: [],
-        recordData: [],
+        recordDeleteId: undefined,
+        recordPostId: undefined,
+        recordGetId: undefined,
+        recordData: "",
+        allRecordData: [],
         deleteResponse: [],
         errorMessage: "",
-        postFormData: { id: undefined, title: "", artist: "", duration: 0, yearOfPublication: 0 },
+        postFormData: { id: undefined, title: undefined, artist: undefined, duration: undefined, yearOfPublication: undefined },
     },
     methods: {
         //Calls a HTTP get method and returns as HTTP Response
@@ -2168,13 +2170,14 @@ new Vue({
         //creates response variable and assigns values to data.
         async getAll() {
             let response = await this.getAllAsync();
-            this.recordData = response.data;
+            this.allRecordData = response.data;
         },
         //Calls a HTTP get method by specific ID 
         getById(id) {
             let url = baseUrl + "/" + id;
             _node_modules_axios_index__WEBPACK_IMPORTED_MODULE_0___default.a.get(url)
                 .then((response) => {
+                console.log("test");
                 this.recordData = response.data;
             })
                 .catch((error) => {
@@ -2182,6 +2185,7 @@ new Vue({
                 alert(error.message); // https://www.w3schools.com/js/js_popup.asp
             });
         },
+        //sends a HTTP post request
         async postAsync() {
             try {
                 return _node_modules_axios_index__WEBPACK_IMPORTED_MODULE_0___default.a.post(baseUrl, this.postFormData);
@@ -2192,11 +2196,13 @@ new Vue({
                 alert(error.message);
             }
         },
+        //Runs the PostAsync command
         async HTTPPost() {
             let response = await this.postAsync();
-            this.addStatus = "Status: " + response.status + ' ' + response.statusText;
-            this.addMessage = "Response data: " + JSON.stringify(response.data);
+            //this.addStatus = "Status: " + response.status + ' ' + response.statusText;
+            //this.addMessage = "Response data: " + JSON.stringify(response.data);  
         },
+        //Sends a HTTP Delete request
         HTTPDelete(id) {
             let url = baseUrl + "/" + id;
             _node_modules_axios_index__WEBPACK_IMPORTED_MODULE_0___default.a.delete(url)

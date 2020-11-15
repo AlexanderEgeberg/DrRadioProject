@@ -2,11 +2,11 @@ import Axios, { AxiosError, AxiosResponse } from "../../node_modules/axios/index
 
 interface IRecord {
     //https://drrestservice2020.azurewebsites.net/api/Record
-    id: Number,
-    title: String,
-    artist: String,
-    duration: Number,
-    yearOfPublication: Number
+    id: number,
+    title: string,
+    artist: string,
+    duration: number,
+    yearOfPublication: number
 }
 
 let baseUrl: string = "https://drrestservice2020.azurewebsites.net/api/Record";
@@ -21,12 +21,14 @@ new Vue({
 
     el: "#app",
     data: {
-        recordID: undefined,
-        recordDatas: [],
-        recordData: [],
+        recordDeleteId: undefined,
+        recordPostId: undefined,
+        recordGetId: undefined,
+        recordData: "",
+        allRecordData: [],
         deleteResponse: [],
         errorMessage: "",
-        postFormData: {id: undefined, title: "", artist: "", duration: 0, yearOfPublication: 0},
+        postFormData: {id: undefined, title: undefined, artist: undefined, duration: undefined, yearOfPublication: undefined},
     },
     methods: {
 
@@ -42,7 +44,7 @@ new Vue({
         //creates response variable and assigns values to data.
         async getAll() {
             let response = await this.getAllAsync();
-            this.recordData = response.data;
+            this.allRecordData = response.data;
         },
 
         //Calls a HTTP get method by specific ID 
@@ -50,6 +52,7 @@ new Vue({
             let url: string = baseUrl + "/" + id
             Axios.get<IRecord>(url)
                 .then((response: AxiosResponse<IRecord>) => {
+                    console.log("test")
                     this.recordData = response.data
                 })
                 .catch((error: AxiosError) => {
@@ -57,6 +60,8 @@ new Vue({
                     alert(error.message) // https://www.w3schools.com/js/js_popup.asp
                 })
         },
+
+        //sends a HTTP post request
         async postAsync() {
             try {
                 return Axios.post<IRecord>(baseUrl, this.postFormData)
@@ -68,12 +73,14 @@ new Vue({
             }
         },
 
+        //Runs the PostAsync command
         async HTTPPost(){
           let response = await this.postAsync();
-          this.addStatus = "Status: " + response.status + ' ' + response.statusText;
-          this.addMessage = "Response data: " + JSON.stringify(response.data);  
+          //this.addStatus = "Status: " + response.status + ' ' + response.statusText;
+          //this.addMessage = "Response data: " + JSON.stringify(response.data);  
         },
 
+        //Sends a HTTP Delete request
         HTTPDelete(id: number) {
             let url: string = baseUrl + "/" + id
             Axios.delete<IRecord>(url)

@@ -14,6 +14,8 @@ namespace DRRestService.Controllers
     public class RecordController : ControllerBase
     {
 
+        public static int IDCounter = 2;
+
         public static readonly List<Record> records = new List<Record>
         {
             new Record(0,"Baby","Justin Beaver",300,2003),
@@ -39,6 +41,9 @@ namespace DRRestService.Controllers
         [HttpPost]
         public void Post([FromBody] Record value)
         {
+            
+            value.Id = IDCounter;
+            IDCounter = IDCounter + 1;
             records.Add(value);
         }
 

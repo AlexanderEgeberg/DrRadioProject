@@ -8118,11 +8118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestServiceTests\\DRRestServiceTests.csproj",
+      "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestServiceTests\\DRRestServiceTests.csproj",
       "projectName": "DRRestServiceTests",
-      "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestServiceTests\\DRRestServiceTests.csproj",
+      "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestServiceTests\\DRRestServiceTests.csproj",
       "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestServiceTests\\obj\\",
+      "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestServiceTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8138,11 +8138,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestService\\DRRestService.csproj": {
-              "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestService\\DRRestService.csproj"
+            "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestService\\DRRestService.csproj": {
+              "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestService\\DRRestService.csproj"
             },
-            "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj": {
-              "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj"
+            "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj": {
+              "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj"
             }
           }
         }

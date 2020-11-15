@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vlkdzu+JwL4ewHnyuN+yxxAuXAK28rZnaHNZyW7mamvefWkKm5cxcVMM+Y+Tp4AOpWwsQUVLSjqOI8YMYhuurQ==",
+  "dgSpecHash": "ONHjB0SpRzQ8zdzMThFWjyF6jDXK+j5C+6Awsii/DcEjAh6e0CpUgclnkeYofDkC20mloaSkRzbg4FPvyLeiCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestService\\DRRestService.csproj",
+  "projectFilePath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestService\\DRRestService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
