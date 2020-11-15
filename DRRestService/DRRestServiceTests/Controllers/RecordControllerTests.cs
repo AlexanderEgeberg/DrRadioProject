@@ -57,7 +57,8 @@ namespace DRRestService.Controllers.Tests
         {
             Record testElement = new Record(1, "tesxDt", "texDst", 1020, 2010);
             record.Put(1, testElement);
-            Assert.AreEqual(record.Get(1), testElement);
+            Record ActualTest = record.Get((1));
+            Assert.AreEqual(ActualTest, testElement);
         }
 
         [TestMethod()]

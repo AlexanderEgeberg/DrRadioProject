@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YtWlxWptKenAar6MbrwoS4wiLIzP8mPXSVec5tDKfg96N2y8LFaACdFQj4usSqiMzPlpTmC/mQHAk28X+Lb3ZA==",
+  "dgSpecHash": "szN0S42Z++gIq5v3wuqfc+JsukspSteR1NgPNq2YJQqlPz9Io3Bv3IXeGo1qbkhkupE8kc0Pm91nfp+FBXWBnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestServiceTests\\DRRestServiceTests.csproj",
+  "projectFilePath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestServiceTests\\DRRestServiceTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

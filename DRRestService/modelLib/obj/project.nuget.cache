@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eibZ/+5i9Gzg/fmz/8lgdgND1kpZobZwFnamF4Dpm7OEAXqtSTef2o54I98HPtSK2nSf6PBOT58P2DsGrrQUxg==",
+  "dgSpecHash": "0xuQFH1PI78ziXHgZC947K+czfTewCDY7zHBPOwU9ZO3b0K/jWr9+AkK7TMJB4Ouh4iK1lU/NuhJFZ9RrZQsyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj",
+  "projectFilePath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

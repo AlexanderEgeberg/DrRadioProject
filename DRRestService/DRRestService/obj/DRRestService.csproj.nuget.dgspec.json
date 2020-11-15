@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestService\\DRRestService.csproj": {}
+    "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestService\\DRRestService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestService\\DRRestService.csproj": {
+    "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestService\\DRRestService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestService\\DRRestService.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestService\\DRRestService.csproj",
         "projectName": "DRRestService",
-        "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestService\\DRRestService.csproj",
+        "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestService\\DRRestService.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\DRRestService\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\DRRestService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -27,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj": {
-                "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj"
+              "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj": {
+                "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj"
               }
             }
           }
@@ -73,22 +77,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj": {
+    "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj",
         "projectName": "modelLib",
-        "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\modelLib.csproj",
+        "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\modelLib.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\Dr-Radio\\DRRestService\\modelLib\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\DrRadioProject\\DRRestService\\modelLib\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -125,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
